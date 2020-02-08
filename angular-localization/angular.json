@@ -22,8 +22,19 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "extractCss": true,
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              {
+                "input": "src/styles-ar.css",
+                "bundleName": "arabicStyle",
+                "lazy": true
+              },
+              {
+                "input": "src/styles-en.css",
+                "bundleName": "englishStyle",
+                "lazy": true
+              }
             ],
             "scripts": []
           },
